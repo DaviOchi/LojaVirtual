@@ -8,10 +8,13 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 header {
-    padding: 16px 0 0;
+    padding: 16px 0;
     border-bottom: 1px solid;
     margin-bottom: 56px;
     background-color: blue;
@@ -20,20 +23,22 @@ header {
 
 header .menu {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
 
 header .menu ul {
-    display: flex; 
-    list-style: none; 
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%; 
 }
 
 header .menu li {
-    margin: 0 15px; 
+    margin: 0 15px;
 }
 
 header .menu a {
-    text-decoration: none; 
+    text-decoration: none;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -42,7 +47,6 @@ header .menu a {
 header .menu a:hover {
     color: #ffd700;
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -53,10 +57,11 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .sobre-loja h2 {
-    border-bottom: 2px solid blue; 
-    padding-bottom: 10px; 
-    margin-bottom: 10px; 
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     color: blue;
 }
 
@@ -76,7 +81,7 @@ body {
 .imagem-loja img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: ;
 }
 
 .texto-loja {
@@ -102,9 +107,9 @@ body {
 }
 
 .produtos h2 {
-    border-bottom: 2px solid blue; 
-    padding-bottom: 10px; 
-    margin-bottom: 10px; 
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     color: blue;
 }
 
@@ -233,8 +238,7 @@ body {
     }
 
     header .menu ul {
-        display: grid; 
-        list-style: none; 
+        display: grid;
+        list-style: none;
     }
-
 }
